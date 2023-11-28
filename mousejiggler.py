@@ -27,5 +27,5 @@ while  True:
     if 6 < now.hour  and  17  >  now.hour:
         executeSomething()
     else:
-        print("Detected out of office-hours, exiting now...")
+        print("Detected out of office-hours", now.strftime("%H:%M"), "exiting now...")
         exit()
