@@ -13,8 +13,8 @@ print("Current time is", now.strftime("%H:%M"))
 
 # Function to move the cursor for every 1 second
 def executeSomething():
-    pyautogui.moveTo(200, 200, duration = 1)
-    pyautogui.moveRel(200, 25, duration = 1)
+    pyautogui.moveTo(200, 200, duration = 0.1)
+    pyautogui.moveRel(200, 25, duration = 0.1)
 
 # method to click the shift button for every loop
     pyautogui.press('shift')
